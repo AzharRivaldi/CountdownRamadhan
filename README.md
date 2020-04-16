@@ -5,5 +5,5 @@ Countdown Ramadhan dengan Android
 https://youtu.be/7ITN6QTbpFo
 
 # Tutorial Build with Android Studio
-Countdown Ramadhan dengan Android
+https://rivaldi48.blogspot.com/2020/04/Tutorial-Membuat-Countdown-Bulan-Ramadhan-dengan-Android-Studio.html
 
