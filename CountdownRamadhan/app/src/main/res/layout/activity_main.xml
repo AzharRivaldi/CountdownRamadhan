@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_masjid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlDateTime"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Marhaban ya Ramadhan\nمرحبا يا رمضان"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:id="@+id/rlDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/counter"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtDay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#4a0000"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="Hari"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/counter"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtHour"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#4a0000"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="jam"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/counter"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtMinute"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#4a0000"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="menit"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/counter"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtSecond"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#4a0000"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="detik"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlDateTime"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Menuju bulan Ramadhan 1441 H"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Created by Azhar Rivaldi"
+        android:textSize="10sp" />
+
+</RelativeLayout>
